@@ -1,0 +1,89 @@
+h1{
+	color:blue;
+}
+
+
+
+span{
+	color:red;
+	font-weight: bold;
+}
+
+
+#biography h2{
+	background-color:blue ;
+}
+
+p.red {
+	background-color: red;
+}
+
+p.blue {
+	
+	background-color: blue;
+
+}
+
+p.green{
+	background-color: green;
+}
+
+p.blue a {
+	color:yellow;
+}
+
+p.red a {
+	color:yellow;
+}
+
+
+p.green a {
+	color:yellow;
+}
+
+
+li.unseen{
+	color:silver;
+}
+
+li.seen{
+	color:rgb(249,0,10);
+}
+
+li.seen.good{
+	color:green;
+}
+
+#biography a{
+	text-decoration: none;
+}
+
+#biography a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*
+p{
+	color:white;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+*/
