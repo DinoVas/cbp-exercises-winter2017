@@ -38,9 +38,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', e
 	position: relative;
 	left: 100px;
 	background-color: yellow;
-	
+	}
 
-
+#smiling{
+	width: 200px;
+	height: 200px;
+	border:10px solid black;
+	background-image: url(img/smiley.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 
 
