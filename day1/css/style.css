@@ -64,32 +64,21 @@ li.seen.good{
 }
 
 
-body{
-	font-family: arial;
-	line-height: 1.2em;
-}
 
-h1, h2, h3 {
-	font-family: impact;
-}
 
-h1{
-	font-size: 72px;
-	font-weight: normal;
-}
 
-h2{
-	font-variant: small-caps;
+
+
+
+
+
+
+
+
+
 }
 
 
-#outer li{
-	list-style-type: none;
-}
-
-#inner li{
-	list-style-image: url('http://classes.codingbootcamp.cz/assets/classes/8/bullet.png');
-}
 
 /*
 p{

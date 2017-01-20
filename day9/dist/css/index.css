@@ -4,7 +4,18 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 1000px;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+h1 {
+  color: blue;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  body {
+    background-color: white;
+    color: black;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
