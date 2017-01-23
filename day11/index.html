@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+	<style>
+		nav{
+			background-color: purple;
+			color:white;
+			padding:0.5em;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%
+		}
+
+		body{
+			margin:0;
+			padding-top: 2em;
+		}
+		section{
+			width: 40%;
+			margin:0 auto;
+		}
+		nav a{
+			color:#ffffff;
+			text-decoration: none;
+		}
+
+		nav a:hover{
+			text-decoration: underline;
+		}
+
+		nav .links{
+			float: right;
+			margin-right: 1em;
+		}
+
+		nav .links > div {
+			display: inline-block;
+			margin:0 0.5em;
+			position: relative;
+		}
+
+		nav .submenu{
+			position:absolute;
+			right: 0;
+			top: 100%;
+			background-color: darkgray;
+			color:#000000;
+			padding-top: 2px;
+			display: none;
+		}
+
+		nav .links > div:hover .submenu{
+			display: block;
+		}
+	</style>
+<body>
+	<nav>
+		Menu
+
+		<div class="links">
+			<div><a href="#">About</a></div>
+			<div>
+				<a href="#">Contact</a>
+				<div class="submenu">
+				<a href="#">link 1</a>
+				<a href="#">link 1</a>
+				<a href="#">link 1</a>
+				<a href="#">link 1</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+	<section>
+	<h1>My headline</h1>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorem ipsam amet ad dignissimos, consectetur eligendi itaque veniam sit aperiam ab vitae alias. Odio, ullam architecto iure, voluptatum quae dolores?</p>
+	</section>
+</body>
+</html>
