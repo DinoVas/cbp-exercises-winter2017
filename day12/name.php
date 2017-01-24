@@ -49,4 +49,53 @@ else
 $number=10;
 echo ($number%2==0 ? 'even' : 'odd');  // checks if the number given is even or odd
 
-?>
+
+//exercise if
+
+
+$height=150;
+
+if ($height>180) {
+	echo "tall";
+	} elseif ($height<180 && $height>160) {
+		echo"average";# code...
+	} else {
+		echo "small";
+	}
+
+$os="Windows";
+switch ($os) {
+	case 'Windows':
+		echo "Edge for".$os;
+		break;
+	case 'Linux':
+		echo "Firefox for".$os;
+		break;
+		case 'OS X':
+		echo "Safari for".$os;
+		break;
+	default:
+		echo"use chrome man";
+		break;
+}
+
+$age=67;
+$gender="Woman";
+$employed=true;
+
+if ($age>35) {
+	echo"you are old";# code...
+}
+else
+{
+	echo "hello";
+}
+
+
+if ($age>=60 && $employed=true && $gender="Woman") {
+	echo "bingo";
+}
+	else
+	{
+		echo "not bingo";
+	}
