@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Segoe UI';
+}
+
+
+.game{
+	background-color:gray;
+	margin:1em;
+	overflow:hidden;
+	padding:1em;
+}
+
+.game .image{
+	float:left;
+	margin: 0 1em 1em 0;
+}
+
+.game .info h2{
+	padding-top:0;
+	margin-bottom: 0.25em;
+}
+
+.game .info. .rating{
+	font-weight:bold;
+	color:darkslateblue;
+}
